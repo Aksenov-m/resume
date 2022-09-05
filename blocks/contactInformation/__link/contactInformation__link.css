@@ -1,0 +1,9 @@
+.contactInformation__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin-left: 5px;
+}

@@ -1,0 +1,17 @@
+.work-experience__list-item {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: rgb(7%, 13%, 21%);
+}
+
+.work-experience__list-item::before {
+  content: '\2022'; /* юникод точки */
+  color: rgb(7%, 13%, 21%); /* Менять цвет */
+  font-weight: bold; /* Менять жирность */
+  display: inline-block; /* Расстояние между точкой и текстом */
+  width: 1em; /* Задать значение расстояния */
+  font-size: 25px;
+  /* padding-top: 5px; */
+}

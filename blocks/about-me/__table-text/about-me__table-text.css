@@ -1,0 +1,10 @@
+.about-me__table-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+  color: rgb(7%, 13%, 21%);
+  margin: 0;
+  margin-top: 5px;
+  /* margin-bottom: 10px; */
+}

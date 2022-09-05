@@ -1,0 +1,6 @@
+.about-me__content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+  gap: 20px;
+}

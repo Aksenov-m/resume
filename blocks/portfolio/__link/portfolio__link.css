@@ -1,0 +1,28 @@
+.portfolio__link {
+  width: 100%;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(7%, 13%, 21%);
+  margin: 0 auto;
+  border: 0;
+  text-align: left;
+  padding: 0;
+  letter-spacing: -0.04em;
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.portfolio__link::before {
+  content: '\2022'; /* юникод точки */
+  color: rgb(7%, 13%, 21%); /* Менять цвет */
+  font-weight: bold; /* Менять жирность */
+  display: inline-block; /* Расстояние между точкой и текстом */
+  width: 0.5em; /* Задать значение расстояния */
+  font-size: 50px;
+  padding-top: 5px;
+}

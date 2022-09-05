@@ -1,0 +1,19 @@
+.about-me__table-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.about-me__table-item::before {
+  content: '\2022'; /* юникод точки */
+  color: rgb(7%, 13%, 21%); /* Менять цвет */
+  font-weight: bold; /* Менять жирность */
+  display: inline-block; /* Расстояние между точкой и текстом */
+  width: 1.2em; /* Задать значение расстояния */
+  font-size: 50px;
+  padding-top: 0;
+  height: 40px;
+}

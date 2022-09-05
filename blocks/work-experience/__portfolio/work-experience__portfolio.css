@@ -1,0 +1,4 @@
+.work-experience__portfolio {
+  display: flex;
+  flex-direction: column;
+}
