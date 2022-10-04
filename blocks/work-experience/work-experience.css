@@ -1,7 +1,7 @@
 .work-experience {
   /* display: flex;
   flex-direction: row; */
-  /* margin-top: 20px; */
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: repeat(3, auto);

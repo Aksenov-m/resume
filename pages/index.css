@@ -45,6 +45,7 @@
 @import url(../blocks/work-experience/__list-item/work-experience__list-item.css);
 @import url(../blocks/work-experience/__portfolio/work-experience__portfolio.css);
 @import url(../blocks/work-experience/__content/work-experience__content.css);
+@import url(../blocks/work-experience/__list/work-experience__list.css);
 @import url(../blocks/additional/additional.css);
 @import url(../blocks/additional/__paragraph/additional__paragraph.css);
 @import url(../blocks/additional/__title/additional__title.css);
