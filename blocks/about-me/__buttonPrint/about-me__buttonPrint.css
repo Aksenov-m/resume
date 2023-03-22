@@ -8,3 +8,9 @@
   right: -330px;
   cursor: pointer;
 }
+
+@media print {
+  .fa-solid {
+    display: none !important;
+  }
+}

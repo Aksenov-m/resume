@@ -15,17 +15,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <div class="page">
       <main class="content">
         <section>
-          <img class="foto" src="./images/foto.jpeg" alt="фото" />
+          <img class="foto" src="./images/foto2.jpg" alt="фото" />
         </section>
         <section class="about-me">
           <div class="about-me__info">
             <button class="about-me__buttonPrint">
-              <i class="fa-solid fa-print fa-xl"></i>
+              <i class="fa-solid fa-print fa-xl" data-html2canvas-ignore=""></i>
             </button>
             <h1 class="about-me__title">Михаил Аксенов</h1>
             <h2 class="about-me__subtitle">Фронтенд-разработчик</h2>
@@ -244,8 +250,16 @@
     </div>
     <script>
       const printButton = document.querySelector(".about-me__buttonPrint");
+      const page = document.querySelector(".content");
+      let opt = {
+        margin: [0, -2, 0, 0],
+        filename: "AksenovCV.pdf",
+        image: { type: "jpeg", quality: 0.98 },
+        html2canvas: { allowTaint: false, width: 1240, height: 1730, scale: 3 },
+      };
+
       printButton.addEventListener("click", function () {
-        window.print();
+        html2pdf().set(opt).from(page).save();
       });
     </script>
   </body>
