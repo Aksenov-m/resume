@@ -1,12 +1,12 @@
 .work-experience {
   /* display: flex;
   flex-direction: row; */
-  margin-top: 20px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: repeat(3, auto);
   /* grid-template-areas: 'title title'; */
-  row-gap: 10px;
+  row-gap: 100px;
   width: 100%;
   column-gap: 10px;
 }
