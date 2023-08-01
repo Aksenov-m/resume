@@ -1,5 +1,6 @@
 .contactInformation__content {
   margin: 0;
-  /* margin-top: 10px; */
-  width: 200px;
+  width: 287px;
+  display: flex;
+  flex-direction: column;
 }

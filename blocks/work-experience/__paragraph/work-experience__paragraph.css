@@ -3,10 +3,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.4;
   color: rgb(7%, 13%, 21%);
+  margin-top: 8px;
 }
 
-.work-experience__paragraph:last-child {
-  margin-top: 5px;
+.work-experience__paragraph:first-child {
+  margin-top: 0;
 }
